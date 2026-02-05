@@ -411,7 +411,11 @@ main {
 .contact__actions {
   display: flex;
   justify-content: center;
-  gap: 0.5em;      /* ΙΔΙΟ spacing με .skills__list-item */
+  gap: 0.5em;      
   margin-top: 1.5em;
   flex-wrap: wrap;
+}
+
+.contact__actions a {
+  display: inline-flex;
 }
