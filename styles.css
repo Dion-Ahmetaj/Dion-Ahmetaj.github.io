@@ -407,3 +407,11 @@ main {
     display: none;
   }
 }
+
+.contact__actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;      /* ΙΔΙΟ spacing με .skills__list-item */
+  margin-top: 1.5em;
+  flex-wrap: wrap;
+}
